@@ -18,12 +18,12 @@ system_prompt: |
   Each string has to be between ONE to TWO words.
   Each search string must DEPICT something visual.
   The depictions have to be extremely visually concrete, like `coffee beans`, or `dog running`.
-  'confused feelings' 			<= BAD, because it doesn't depict something visually
-  'heartbroken man' 			<= GOOD, because it depicts something visual. 
+  'confused feelings' 			<= BAD, because it doesn't depict something visually enough
+  'stone wall' 			<= GOOD, because it depicts something visual. 
   'man feeling very lonely' 	<= BAD, because it contains 4 words.
   The list must always contain 3 query searches.
   ['Sad person']					<= BAD, because it's one string
-  ['Sad person', 'depressed man', 'depressed person'] <= GOOD, because it's 3 strings
+  ['stone wall', 'angry dog', 'old chair'] <= GOOD, because it's 3 strings
   ['Une Pomme', 'un enfant qui rit', 'une personne heureuse'] <= BAD, because the text query is NOT in english
 
 chat_prompt: |
