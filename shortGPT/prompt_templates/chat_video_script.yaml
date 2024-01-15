@@ -5,7 +5,7 @@ system_prompt: |
   Don't write any other textual thing than the text itself.
   Make sure the text is minimum 1000 words long.
   # Output
-  You will output the script in a JSON format of this kind, and only a parsable JSON object
+  You will output the script in a JSON format of this kind, and only a parsable JSON object, it must be in JSON!
   {"script": "did you know that ... ?"}
 
 chat_prompt: |
